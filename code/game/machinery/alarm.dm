@@ -232,7 +232,7 @@
 		if(danger_check)
 			should_disable_regulating = TRUE
 
-		nodeDisableRegulating
+		//nodeDisableRegulating
 		if(should_disable_regulating)
 			update_use_power(POWER_USE_IDLE)
 			regulating_temperature = 0
